@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(39, 39, 39);
+}
+ul {
+    list-style: none;
+    text-align: left;
+    padding-top: 30px;
+    white-space: nowrap;
+    line-height: 64pt;
+}
+li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 20%;
+}
+ul a {
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40pt;
+    color: rgb(146, 146, 146);
+}
+div {
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right,rgb(0, 0, 0), rgb(0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+#menu-title-text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 40pt;
+    text-align: left;
+    margin: 30px 0px 30px 40px;
+    color: white;
+    font-size: 40pt;
+}
+#menu-title-text-top {
+    letter-spacing: 5px;
+}
+#menu-dev-text:hover {
+    font-family: 'Iceland', cursive;
+    font-size: 55pt;
+    color: rgb(95, 219, 95);
+    padding-left: 4%;
+    margin-bottom: 0px;
+    line-height: 66pt;
+}
+#menu-design-text:hover {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: rgb(255, 88, 88);
+    padding-left: 4%;
+    font-size: 39pt;
+    line-height: 70pt;
+}
+#menu-articles-text:hover {
+    font-family: 'PT Mono', monospace;
+    color: rgb(255, 255, 125);
+    padding-left: 4%;
+    font-size: 38pt;
+    line-height: 70pt;
+}
+#menu-about-text:hover {
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(99, 99, 235);
+    padding-left: 4%;
+    font-size: 40pt;
+}
+#menu-dev-text:active {
+    color: rgb(66, 121, 66);
+}
+#menu-design-text:active {
+    color: rgb(143, 58, 58);
+}
+#menu-articles-text:active {
+    color: rgb(156, 156, 65);
+}
+#menu-about-text:active {
+    color: rgb(60, 60, 116);
+}
